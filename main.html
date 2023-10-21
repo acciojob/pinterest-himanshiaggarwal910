@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest-like Hero Section</title>
+    <style>
+        /* CSS Styles */
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px; /* Set your desired height */
+            background-color: #e2e2e2; /* Background color for the hero section */
+        }
+
+        .hero img {
+            width: 100%; /* Full width within the container */
+            height: 100%; /* Full height within the container */
+            object-fit: cover; /* Clip the image to fit */
+        }
+
+        .explore-button {
+            padding: 15px 30px;
+            background-color: #e60023; /* Background color for the button */
+            color: #fff; /* Text color */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none; /* Remove underline for links */
+        }
+
+        .explore-button:hover {
+            background-color: #ff3d57; /* Hover state color */
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="hero">
+        <img src="https://unsplash.com/photos/man-in-brown-leather-jacket-smiling-RGKdWJOUFH0" alt="Hero Image">
+    </div>
+    <h1>Welcome to Our Pinterest-like Hero Section</h1>
+    <p>Discover amazing content and inspiration here.</p>
+    <a href="#" class="explore-button">Explore Now</a>
 </body>
-
 </html>
